@@ -1,0 +1,603 @@
+/* 设置主体部分的大小 */
+body{
+    /* height: 7000px;
+    width: 1600px;
+    margin: 0 auto; */
+}
+/* 设置第一个列表的大小，并开启flex布局 */
+.list1{
+    margin: 0 auto;
+    width: 1300px;
+    height: 30px;
+    display: flex;
+    /* justify-content: center; */
+}
+/* 设置 logo的大小与位置 */
+.list1 img{
+    margin: 0 auto;
+    width: 100px;
+    height: 30px;
+}
+.list1 p{
+    height: 25px;
+    margin-top: 10px;
+    margin-right: 40px;
+    /* padding-bottom: 1px; */
+}
+/* 设置列表中超链接的宽度，并使其居中 */
+.list1 a{
+    width: 100px;
+    text-align: center;
+}
+/* 设置特定超链接的颜色和字体的大小，并使其在盒子中居中 */
+.list1 .a1{
+    color: #222222;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 15px;
+}
+/* 设置鼠标移到相应的超链接之后，产生的变化 */
+.list1 p:hover{
+    border-bottom: solid lightskyblue;
+}
+/* 先设置一个固定的边框 */
+.list1 .p2{
+    border-bottom: solid lightskyblue;
+}
+/* 这是输入的大小，边框的形式和颜色 */
+.list1 input{
+    margin: 0 auto;
+    width: 200px;
+    height: 30px;
+    border: solid;
+    border-color: lightskyblue;
+}
+/* 设置按钮的颜色 */
+.list1 button{
+    margin: 0 auto;
+    height: 30px;
+    width: 100px;
+    background-color: lightskyblue;
+}
+/* 设置字体的颜色*/
+button a{
+    color: #ffffff;
+}
+/* 设置大图片的大小 */
+.big-img{
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 100%;
+    height: 65%;
+}
+/* 将图片的宽度设置一下，这样就会正好居中 */
+.big-img img{
+    width: 100%;
+}
+/* 设置中间第二个盒子的大小，并且开启flex布局 */
+.content1{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 1600px;
+    height: 500px;
+    display: flex;
+}
+/* 将第一个中间盒子总每一个小盒子设置一个大小，并用flex布局来规划 */
+.content1 .nav{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    width: 500px;
+    height: 400px;
+}
+/* 设置盒子被点击之后的阴影 */
+.content1 .nav:hover{
+    box-shadow: 5px 5px 10px #222222;
+}
+/* 设置中间盒子里每一个照片的大小 */
+.content1 img{
+    width: 500px;
+    height: 320px;
+}
+/* 设置中间第二个盒子的大小，背景颜色，通过这个地方可以看到内边距的用法 */
+.content1 .nav1-2{
+    padding-top: 30px;
+    text-align: center;
+    width: 500px;
+    height: 80px;
+    background-color:  lightslategrey;
+}
+/* 设置第二个小盒子的效果，与第一个小盒子相同 */
+.content1 .nav2-2{
+    padding-top: 30px;
+    text-align: center;    
+    width: 500px;
+    height: 80px;
+    background-color:  lightslategrey;
+}
+.content1 .nav3-2{
+    padding-top: 30px;
+    text-align: center;    
+    width: 500px;
+    height: 80px;
+    background-color:  lightslategrey;
+}
+/* 设置中间第一个盒子中超链接的字体的大小和颜色 */
+.content1 a{
+    font-size: 20px;
+    color: black;
+}
+/* 设置第二个中间盒子的大小 */
+.content2{
+    margin: 0 auto;
+    width: 1600px;
+    height: 1000px;
+}
+/* 设置第二个中间盒子的第一个小盒子的大小，使文本居中，设置字体大小 设置内容的颜色*/
+.content2 .content2-1{
+    text-align: center;
+    width: 1600px;
+    height: 200px;
+    font-size: 45px;
+    color: lightslategray;
+}
+/* 将下划线的位置向下移动 */
+.content2 .content2-1 hr{
+    margin-top: 40px;
+}
+/* 设置第二个小盒子的大小，并开启flex布局*/
+.content2-2{
+    width: 1600px;
+    display: flex;
+    height: 100px;
+}
+/* 设置盒子的其中小盒子大小 */
+.content2-2 .nav{
+    width: 800px;
+    height: 100px;
+}
+/* 设置字体的大小，并设置颜色 */
+.content2-2 p{
+    font-size: 35px;
+    color: black;
+}
+/* 设置第三个小盒子的大小，并开启flex布局 */
+.content2-3{
+    margin: 0 auto;
+    width: 1600px;
+    height: 700px;
+    display: flex;
+}
+/* 让第三个盒子中的左边盒子大小确定，并居中，设置背景色达到画竖线的效果 */
+.content2-3 .left{
+    margin: 0 auto;
+    width: 1px;
+    height: 700px;
+    background-color: lightslategray;
+}
+/* 设置第三个小盒子中间盒子的大小，并开启flex布局，向下开始排列 */
+.content2-3 .content{
+    margin: 0 auto;
+    width: 700px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+/* 设置其中小盒子的大小 */
+.content2-3 .content .nav{
+    width: 700px;
+    height: 100px;
+}
+/* 点鼠标移到小盒子之后，将背景色变为蓝色 */
+.content2-3 .content .nav:hover{
+    background-color: #64b7f7;
+}
+/* 将文字的颜色变为白色 */
+.content2-3 .content .nav:hover .p1{
+    color: white;
+}
+/* 将超链接画上横线 */
+.content2-3 .content .nav:hover .p2 a{
+    color: white;
+    text-decoration: underline white;
+}
+/* 设置“更多新闻”所在盒子的大小，并使其居中 */
+.content2-3 .content .nav7{
+    width: 700px;
+    height: 100px;
+    text-align: center;
+}
+/* 设置第七个盒子的字体大小和颜色 */
+.content2-3 .content .nav7 a{
+    font-size: 25px;
+    color: black;
+}
+/* 设置中间盒子字体大小和颜色 */
+.content2-3 .content .nav a{
+    font-size: 25px;
+    color: black;
+}
+/* 设值照片下面的字体大小和颜色 */
+.content2-3 .content .p1{
+    font-size: 20px;
+    color: lightslategrey;
+    padding-top: 30px;
+}
+/* 调整位置 */
+.content2-3 .content .p2{
+    padding-top: 20px;
+}
+/* 调整位置，达到相应的效果 */
+.content2-3 .content .nav7{
+    padding-top: 40px;
+}
+/* 设置右边盒子的大小，并开启flex布局，设置居中，设置换行方式 */
+.content2-3 .right{
+    margin: 0 auto;
+    display: flex;
+    width: 850px;
+    height: 700px;
+    flex-wrap: wrap;
+}
+/* 设置右边盒子中小盒子的大小，并设置其居中 */
+.content2-3 .right .nav{
+    margin: 0 auto;
+    width: 400px;
+    height: 200px;
+}
+/* 设置鼠标触碰后的阴影效果 */
+.content2-3 .right .nav:hover{
+    box-shadow: 10px 10px 15px lightslategray;
+}
+/* 设置图片的大小 */
+.content2-3 .right img{
+    width: 400px;
+    height: 300px;
+}
+/* 设置底部字体的颜色和字体大小，并使其居中 */
+.content2-3 .bottom {
+    opacity: 0.5;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    background-color: lightslategrey;
+}
+/* 规定第三个中间盒子的大小，并设置背景 */
+.content3{
+    margin: 0 auto;
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/C3bg.jpg);
+    background-size: 100%;
+}
+/* 设置文字的颜色及大小并调整位置 */
+.content3 .content3-1{
+    color: white;
+    margin: 0 auto;
+    padding-top: 20px;
+    font-size: 30px;
+    width: 160px;
+    height: 50px;
+}
+/* 设置第二个中间盒子的大小 */
+.content3 .content3-2{
+    margin: 0 auto;
+    width: 1600px;
+    height: 50px;
+}
+/* 设置第三个中间盒子中小盒子的大小 */
+.content3 .content3-3{
+    margin: 0 auto;
+    width: 1600px;
+    height: 500px;
+}
+/* 设置三个小盒子的大小，并使其浮动 */
+.content3 .content3-3 .nav{
+    float: left;
+    width: 500px;
+    height: 400px;
+    margin-left: 30px;
+}
+/* 将小盒子上面部分的大小规定 */
+.content3-3 .same1{
+    width: 500px;
+    height: 100px;
+}
+/* 江小盒子下面部分的大小规定 */
+.content3-3 .same2{
+    width: 500px;
+    height: 300px;
+}
+/* 将其中的字体居中，并调整大小 */
+.content3-3 p{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+/* 设置背景图案，并调整大小 */
+.content3-3 .nav1-2{
+    background-image: url(../img/C3-1.jpg);
+    background-size: 100%;
+}
+.content3-3 .nav2-2{
+    background-image: url(../img/C3-2.jpg);
+    background-size: 100%;
+}
+.content3-3 .nav3-2{
+    background-image: url(../img/C3-3.jpg);
+    background-size: 100%;
+}
+/* 设置还未显示的盒子的大小 */
+.content3-3 .small{
+    display: none;
+    padding-top: 80px;
+    width: 500px;
+    height: 100px;
+}
+/* 设置字体的大小及颜色 */
+.content3-3 .small p{
+    color: white;
+    font-size: 25px;
+}
+/* 鼠标触碰之后颜色变白 */
+.content3-3 .nav:hover .same1{
+    background-color: white;
+}
+/* 鼠标触碰之后字体颜色变黑 */
+.content3-3 .nav:hover .same1 p{
+    color: black;
+}
+/* 鼠标触碰之后显示 */
+.content3-3 .nav:hover .small{
+    display: inline-block;
+}
+/* 鼠标触碰之后显示阴影 */
+.content3-3 .nav:hover{
+    box-shadow: 5px 5px 10px black;
+}
+/* 设置居中和第四个中间盒子的大小 */
+.content4{
+    margin: 0 auto;
+    text-align: center;
+    width: 1600px;
+    height: 500px;
+}
+/* 为实现效果而控制边距 */
+.content4-1{
+    margin-top: 100px;
+    width: 1600px;
+    height: 50px;
+}
+/* 设置第一个中间大盒子的效果 */
+.content4-1 p{
+    text-align: center;
+    font-size: 50px;
+    color: lightslategray;
+}
+/* 调整横线的位置 */
+.content4-1 hr{
+    margin-top: 40px;
+}
+/* 设置中盒子的大小 */
+.content4-2{
+    width: 1600px;
+    height: 60px;
+}
+/* 将每个盒子的大小固定，并调整位置达到效果 */
+.content4-2 .nav{
+    margin-left: 20px;
+    padding-top: 60px;
+    width: 500px;
+    height: 100px;
+    float: left;
+}
+/* 将其中大字体的颜色设置 */
+.content4-2 .p1{
+    color: red;
+    font-size: 30px;
+}
+/* 调整其中的位置 */
+.content4-2 p{
+    margin-top: 10px;
+}
+/* 设置其中第三个小盒子的大小 */
+.content4-3{
+    width: 1600px;
+    height: 200px;
+}
+/* 将每个盒子的大小设置，并开启浮动 */
+.content4-3 .nav{
+    margin-left: 50px;
+    float: left;;
+}
+/* 设置其中小盒子的大小 */
+.content4-4{
+    width: 1600px;
+    height: 50px;
+}
+/* 将按钮的相关内容设置一下 */
+.content4-4 button{
+    font-size: 15px;
+    color: lightskyblue;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    border: solid lightskyblue 2px;
+}
+/* 设置触碰之后的效果 */
+.content4-4 button:hover{
+    color: white;
+    background-color: lightskyblue;
+}
+/* 设置第五个中间盒子的大小，并设置大的整体的背景色 */
+.content5{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 100%;
+    height: 700px;
+    background-color: #fafafa;
+    background-size: 100%;
+}
+/* 设置第一个小盒子的位置，并设置边距实现效果 */
+.content5 .content5-1{
+    margin: 0 auto;
+    padding-top: 50px;
+    font-size: 50px;
+    color: lightslategray;
+    text-align: center;
+    width: 1600px;
+    height: 100px;
+}
+/*将横线的设置位置调整到相应的位置*/
+.content5 .content5-1 hr{
+    margin-top: 40px;
+}
+/* 设置第二个盒子的位置，并调整间距达到相应的效果 */
+.content5 .content5-2{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 1600px;
+    height: 600px;
+}
+/* 设置nav的大小，并调整间距*/
+.content5 .nav{
+    margin-left: 80px;
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+/* 设置内层盒子的背景图片 */
+.content5 .content5-2 .nav1{
+    background-image: url(../img/C5-1.jpg);
+    background-size: 100%;
+}
+.content5 .content5-2 .nav2{
+    background-image: url(../img/C5-2.jpg);
+    background-size: 100%;
+}
+.content5 .content5-2 .nav3{
+    background-image: url(../img/C5-3.jpg);
+    background-size: 100%;
+}
+.content5 .content5-2 .nav4{
+    background-image: url(../img/C5-4.jpg);
+    background-size: 100%;
+}
+/* 设置文字的样式，中层盒子的大小 并设置透明度*/
+.content5-2 .nav1-1{
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    background-color: #59a3db;
+    opacity: 0.8;
+    font-size: 25px;
+}
+/* 设置文字的样式 */
+.content5-2 .nav1-1 p{
+    color: white;
+    padding-top: 20px;
+}
+/* 设置画横线的位置 */
+.content5-2 .nav1-1 hr{
+    margin-top: 20px;
+}
+/* 设置外层盒子中的按钮样式 */
+.content5-2 .nav1-1 button{
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: white;
+    color: lightblue;
+    margin-top: 130px;
+}
+/* 将外层盒子隐藏 */
+.content5-2 .nav1-1{
+    display: none;
+}
+/* 点击之后外层盒子显示出来 */
+.content5-2 .nav:hover .nav1-1{
+    display: inline-block;
+}
+/* 设置中层盒子的样式 */
+.content5-2 .nav1-2{
+    opacity: 0.5;
+    height: 100px;
+    text-align: center;
+    background-color: lightgray;
+    font-size: 25px;
+    color: black;
+}
+/* 调整间距 */
+.content5-2 .nav1-2{
+    margin-top: 100px; 
+}
+/* 调整字体的内边就 */
+.content5-2 .nav1-2 p{
+    padding-top: 40px;
+}
+/* 实现隐藏的效果 */
+.content5-2 .nav:hover .nav1-2{
+    display: none;
+}
+.content5-2 .nav1-1 button:hover{
+    color: black;
+}
+/* 设置底层盒子的大小 */
+.end{
+    margin: 0 auto;
+    width: 1600px;
+    height: 400px;
+}
+/* 其中第一个小盒子的大小，位置调整，颜色设置 */
+.end .bottom1{
+    margin: 0 auto;
+    width: 1000px;
+    height: 50px;
+    padding-top: 20px;
+    color: lightgray;
+}
+/* 调整标题的位置 */
+.end .bottom1 p{
+    margin-top: 15px;
+}
+/* 调整横的位置 */
+.end .bottom1 hr{
+    margin-top: 50px;
+}
+/* 设置其中小盒子的大小，并使其边距变化，达到效果 */
+.end .bottom1 .nav{
+    margin-right: 10px;
+    width: 36px;
+    height: 36px;
+    float: left;
+}
+/* 设置相应的浮动效果 */
+.end .bottom1 .nav0{
+    float: left;
+}
+/* 设置其中小盒子的大小，并使其居中 */
+.end .bottom2 {
+    margin: 0 auto;
+    width: 1000px;
+    height: 300px;
+}
+/* 设置浮动达到列表的效果 */
+.end .bottom2 .nav{
+    width: 120px;
+    height: 300px;
+    float: left;
+    margin-left: 20px;
+}
+/* 设置文字的颜色 */
+.bottom2 .p1{
+    font-size: 20px;
+    color: lightslategrey;
+}
+.bottom2 p{
+    margin-top: 10px;
+}
+.bottom2 a{
+    color: grey;
+}
